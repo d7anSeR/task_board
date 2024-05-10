@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; overflow: hidden;}
+body { margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background: rgb(249,255,113);
+    background: radial-gradient(circle, rgba(249,255,113,1) 29%, rgba(0,255,219,1) 100%);
+}
+.border{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5px;
+    border: 1px solid #00d3c2;
+    border-radius: 20px;
+    align-items: center;
+    background-color:#fffead;
+    margin-bottom: 10px;
+    h2{
+        margin: 0;
+    }
+}
+.mat-mdc-text-field-wrapper{
+    background-color: rgba(0, 166, 102, 0)!important;
+    border-bottom: none !important;
+
+}
+.mat-mdc-text-field-focus-overlay{
+    background-color:  rgba(0, 166, 102, 0)!important;
+
+
+}
